@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: milung-ambulance-ufe-content
+spec:
+  microFrontend: milung-ambulance-ufe
+  element: milung-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?milung-ambulance-wl(/.*)?$"
