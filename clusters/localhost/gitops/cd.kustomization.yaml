@@ -7,7 +7,7 @@ spec:
   wait: true
   interval: 42s
   path: clusters/localhost
-  prune: true
+  prune: false
   sourceRef:
     kind: GitRepository
     name: gitops-repo

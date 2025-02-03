@@ -4,7 +4,10 @@ metadata:
   name: milung-ambulance-ufe-content
 spec:
   microFrontend: milung-ambulance-ufe
-  element: milung-ambulance-wl-list
+  element: milung-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: milung-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
