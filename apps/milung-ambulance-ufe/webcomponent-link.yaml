@@ -18,7 +18,7 @@ spec:
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
       value: ./milung-ambulance-wl
     - name: tile-img-src
-      value: https://live.staticflickr.com/1256/5139930960_1b3627e679_w.jpg
+      value: https://live.staticflickr.com/5184/5606596989_1890974660_w.jpg
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:
